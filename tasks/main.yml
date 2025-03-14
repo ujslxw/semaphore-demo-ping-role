@@ -1,5 +1,5 @@
 - name: Ping site
-  shell: ping -c 1 -w 2 google.com
+  shell: ping -c 1 -w 2 baidu.com
   register: ping_result
 
 - name: Ping result
